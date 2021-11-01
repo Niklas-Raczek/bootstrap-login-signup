@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuric-Login</title>
+
+    <!-- Bootstrap 5 CDN-Import: -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Light-Theming: -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Dark-Theming: -->
+    <!-- Uncomment the line below to use dark theming. Don't forget to comment the line above.-->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+
+</head>
+<body>
+
+    <div class="page-content d-flex align-items-center">
+        <div class="container d-flex justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-6 col-xxl-5">
+                <div class="auth-card">
+                    <div class="logo-area">
+
+                        <!-- Light-Theming Logo: -->
+                        <img class="logo" src="assets/img/logo.png" />
+
+                        <!-- Dark-Theming: -->
+                        <!-- <img class="logo" src="assets/img/logo_dark.png" /> -->
+
+                    </div>
+                    <h5 class="auth-title">Coding.Tutorials.Software</h5>
+                    <button class="btn service-btn mt-5 mb-3">
+                        <i class="fab fa-google service-icon"></i>
+                        Login mit Google
+                    </button>
+                    <button class="btn service-btn mb-3">
+                        <i class="fab fa-github service-icon"></i>
+                        Login mit Github
+                    </button>
+                    <hr class="separator">
+
+                    <form>
+                        <div class="mb-2 mt-5">
+                            <input type="email" class="form-control auth-input" id="emailInput" aria-describedby="emailHelp" placeholder="E-Mail Adresse">
+                            <div id="emailHelp" class="form-text input-info-text">E-Mail Adresse oder Benutzername.</div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control auth-input" id="passwordInput" placeholder="Passwort">
+                        </div>
+                        <button class="btn auth-btn mt-2 mb-4">Login</button>
+                    </form>
+
+                    <p class="text mb-1"><a class="text-link" href="">Passwort</a> vergessen?</p>
+                    <p class="text mb-4">Noch keinen Account? <a class="text-link" href="signup.html">Account erstellen</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS-Bundle CDN import: -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
