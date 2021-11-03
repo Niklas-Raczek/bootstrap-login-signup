@@ -5,20 +5,20 @@
 }
 
 .auth-card {
-  background: rgb(255, 255, 255, 0.1);
+  background-color: rgb(255, 255, 255, 0.1);
   box-shadow: 0 3px 16px rgb(0 0 0 / 0.4);
   border-radius: 20px;
   padding: 10px 10%;
 }
 
-.logo {
-  width: 100%;
-  height: auto;
-}
-
 .logo-area {
   padding: 20px 30%;
   margin-top: 60px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
 }
 
 .auth-title {
@@ -35,8 +35,8 @@
 }
 
 .service-btn:hover {
-  background: rgb(0, 0, 0, 0.3);
   color: #66fcf1;
+  background-color: rgb(0, 0, 0, 0.3);
 }
 
 .service-icon {
@@ -48,21 +48,21 @@
   color: white;
 }
 
-.input-info-text {
-  color: rgb(255, 255, 255, 0.8);
-}
-
 .auth-input {
   background: rgb(0, 0, 0, 0.2);
   height: 45px;
   border: none !important;
   color: white;
+  box-shadow: none !important;
 }
 
 .auth-input:focus {
   background: rgb(0, 0, 0, 0.3);
   color: #66fcf1;
-  box-shadow: none !important;
+}
+
+.input-info-text {
+  color: rgb(255, 255, 255, 0.8);
 }
 
 .auth-btn {
@@ -79,8 +79,8 @@
 }
 
 .text {
-  color: white;
   text-align: center;
+  color: white;
 }
 
 .text-link {
@@ -89,4 +89,13 @@
 
 .text-link:hover {
   color: #45a29e;
+}
+
+.btn-theme {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: none !important;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
