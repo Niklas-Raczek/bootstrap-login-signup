@@ -5,20 +5,20 @@
 }
 
 .auth-card {
-  background: #ffffff;
+  background-color: white;
   box-shadow: 0 3px 12px rgb(0 0 0 / 0.2);
   border-radius: 20px;
   padding: 10px 10%;
 }
 
-.logo {
-  width: 100%;
-  height: auto;
-}
-
 .logo-area {
   padding: 20px 30%;
   margin-top: 60px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
 }
 
 .auth-title {
@@ -49,21 +49,21 @@
   color: rgb(46, 46, 46);
 }
 
-.input-info-text {
-  color: rgb(138, 138, 138);
-}
-
 .auth-input {
   background: white;
   height: 45px;
   border: 1px solid rgb(220, 220, 220);
   color: rgb(46, 46, 46);
+  box-shadow: none !important;
 }
 
 .auth-input:focus {
   color: #1da19b;
   border: 1px solid #1da19b;
-  box-shadow: none !important;
+}
+
+.input-info-text {
+  color: rgb(138, 138, 138);
 }
 
 .auth-btn {
@@ -82,6 +82,7 @@
 
 .text {
   text-align: center;
+  color: rgb(46, 46, 46);
 }
 
 .text-link {
@@ -90,4 +91,13 @@
 
 .text-link:hover {
   color: #24726e;
+}
+
+.btn-theme {
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
